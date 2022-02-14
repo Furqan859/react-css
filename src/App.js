@@ -7,7 +7,7 @@ function App() {
     <div>
       <header className='header'>
         <div className="logo">
-          <img src="https://thriveagency.com/files/new-thrive-logo-color-300.png" height="55" width="90" alt="logo-thrive" />
+          <img className="logo1" src="https://thriveagency.com/files/new-thrive-logo-color-300.png"  alt="logo-thrive" />
         </div>
         <div className="header-container">
           <ul>
@@ -15,11 +15,12 @@ function App() {
             <li>Work<FontAwesomeIcon icon={faAngleDown} /></li>
             <li>About<FontAwesomeIcon icon={faAngleDown} /></li>
             <li>Resoucres<FontAwesomeIcon icon={faAngleDown} /></li>
-            <li>Contact</li>
+            
           </ul>
         </div>
         <div className="contact-info">
           <ul>
+          <li>Contact</li>
             <li><FontAwesomeIcon icon={faPhone} /></li>
             <li>843-353-6383</li>
             <li><FontAwesomeIcon icon={faSearch} /></li></ul>
@@ -74,10 +75,12 @@ function App() {
       
       </div>
       
-      <div className="paragraph3">
-      <span className="img-para"></span>
+      <div className="div3">
+      <span className="img-para"><img src="https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-service-image-2.svg" alt="disgital" /></span>
+      <span className="para3">
       <p>So many other agencies rely on a one-size-fits-all approach, many times offering you the same strategy and cookie-cutter website as your competitor down the street.</p>
       <p>Thrive works with you to produce customized internet marketing services and a plan that aligns with your unique business needs. We become an extension of your team, a partner that understands your market and goals, rather than just an agency that executes strategies blindly.</p>
+      </span>
       </div>
 
       <div className="social">

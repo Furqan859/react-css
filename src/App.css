@@ -105,7 +105,8 @@ li{
   background-size: 100vw; 
   float: left;
   height: 20vw;
-  width: 100vw;
+  
+  display:block;
   
   
 } 
@@ -142,6 +143,7 @@ margin-top: 25px;
 }
 .button-img:hover{
   background-color: #af6407;
+  background-position: center;
 }
 
 
@@ -152,6 +154,7 @@ margin-top: 25px;
 
 .home-link{
   color: #738942;
+  font-size: 14px;
 }
 
 .icons{
@@ -160,9 +163,94 @@ margin-top: 25px;
   align-self: center;
   margin-right: 6px;
   margin-left: 6px;
-  color: #738942;
+  
   color: #767e86;
 }
+
+
+
+
+.digital{
+  color:#767e86
+}
+
+.carret-down{
+  display: flex;
+  justify-content:center;
+  
+  
+  margin-top: 20px;
+  
+  
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-top: 18px solid #738942;
+  width: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+
+}
+
+.line{
+  border-top: 1px solid #738942;
+  margin-bottom: 10px;
+}
+
+
+
+
+.video-div{
+  display: flex;
+  justify-content: space-evenly;
+ margin-bottom: 2rem;
+ margin-right: 3rem;
+ margin-left: 3rem;
+  
+  
+}
+.video{
+  width:1760px;
+  height:350px;
+  margin-left: 2rem;
+
+}
+
+
+.main-para{
+/* display: flex;
+flex-direction: column;
+justify-content: space-around;
+width: 600px; */
+}
+
+.paragraph1{
+  
+line-height: 1.8rem;
+
+
+}
+
+.paragraph2{
+  line-height: 1.8rem;
+}
+
+.img-para{
+background-image: url("https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-service-image-2.svg");
+}
+
+.paragraph3{
+  display: flex;
+
+  margin-top:5rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+
+
 
 
 .social{

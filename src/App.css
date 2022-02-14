@@ -7,6 +7,14 @@
 .header {
 display: flex;
 justify-content: space-between;
+font-size: 18px;
+font-family:proximanova-extrabld,-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:fff;
+font-size: larger;
+font-style:inherit;
+text-transform: uppercase;
+
+
 }
 
 .contact-info{
@@ -19,31 +27,147 @@ justify-content: space-between;
 }
 
 .logo{
-  margin-left: 2rem;
-  margin-top: 2.5rem;
+  cursor: pointer;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+  
 
 }
 .header-container ul {
   display: flex;
   text-decoration: none;
-  margin-top: 2.5rem;
+  margin-top: 3rem;
 
 }
 
 .header-container ul li {
-  margin-left: 2.5rem;
+  margin-left: 4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.header-container ul li::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: green;
+  transform: scaleX(0);
+  transition: transform 0.6s ease;
+}
+
+.header-container ul li:hover::before {
+  transform: scaleX(1);
 }
 
 
 .contact-info ul {
   display: flex;
+  color: green;
 }
 .contact-info ul li {
   
-  margin-right: 2rem;
+  margin-right: 2.3rem;
+  margin-top: .5rem;
+  margin-left: -1.7rem;
 
 }
 
 li{
   list-style: none;
+}
+
+.body-section{
+  display:flex;
+  flex-direction:column;
+  top: 0;
+}
+
+.body-tag{
+  display:flex;
+  flex-direction:column;
+  flex-direction: center;
+  align-self: center;
+  align-items: center;
+  position: relative;
+  line-height: 3em;
+ 
+
+    
+ 
+}
+
+.background-img{
+  background: url('https://media.istockphoto.com/photos/dollar-seedling-growth-concept-plants-on-bills-in-increase-picture-id1297492947') no-repeat;
+  background-size: 100vw; 
+  float: left;
+  height: 20vw;
+  width: 100vw;
+  
+  
+} 
+
+
+
+.first-tag{
+color:#443f35;
+font-size:30px;
+letter-spacing: 1px;
+font-weight: normal;
+margin-top: 25px;
+}
+
+
+.secound-tag{
+  color: #738942;
+  font-size: 20px;
+}
+
+
+.button-img{
+  margin-top:20px;
+  color: #fff; 
+  height:40px;
+  width:300px;
+  top:1px;
+  font-size: 25px;
+  background-color: #db7803;
+  border-radius:4px;
+  border: none;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button-img:hover{
+  background-color: #af6407;
+}
+
+
+.arrows{
+  display: flex;
+  justify-content: center;
+}
+
+.home-link{
+  color: #738942;
+}
+
+.icons{
+  font-size:6px;
+  align-content: center;
+  align-self: center;
+  margin-right: 6px;
+  margin-left: 6px;
+  color: #738942;
+  color: #767e86;
+}
+
+
+.social{
+  display: flex;
+  justify-content:space-around;
+  padding: 30px 0 20px;
+  background-color: #556c26;
 }

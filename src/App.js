@@ -61,7 +61,7 @@ function App() {
 
 
       <div className="video-div">
-      <p className="main-para">
+      <div className="main-para">
       
       <p className="paragraph1">Thrive Internet Marketing Agency is a dynamic, versatile and full-service digital marketing agency that doesn’t rely on smoke and mirrors to attract new clients. Instead, Thrive trusts its own search engine optimization (SEO) and marketing skills to drive new customers to our website.</p>
 
@@ -69,14 +69,14 @@ function App() {
     <p>Unlike so many other agencies that use glitz and glamor to close sales and then fail to execute, Thrive focuses on client relationships and results. We always deliver substance, not false promises, ensuring we maximize your budget, so you get the most return on investment (ROI).</p>
     <p>Our reviews and testimonials speak volumes. We earn your business every day with month-to-month contracts.</p>
     <p>Take a look below at the wide variety of digital marketing services Thrive offers. Contact us today to learn more about how we can help your business!</p>
-      </p>
+      </div>
       
       <iframe className="video" src="https://www.youtube.com/embed/JBPmDzL-Xek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       </div>
       
       <div className="div3">
-      <span className="img-para"><img src="https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-service-image-2.svg" alt="disgital" /></span>
+    <img className="img-para" src="https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-service-image-2.svg" alt="disgital" />
       <span className="para3">
       <p>So many other agencies rely on a one-size-fits-all approach, many times offering you the same strategy and cookie-cutter website as your competitor down the street.</p>
       <p>Thrive works with you to produce customized internet marketing services and a plan that aligns with your unique business needs. We become an extension of your team, a partner that understands your market and goals, rather than just an agency that executes strategies blindly.</p>
@@ -85,15 +85,18 @@ function App() {
 
       <div className="social">
 
-      <span>
-        <h1>Google</h1>
-        <p>100+ Reviews</p></span>
-      <span>
-        <h1>Faceook</h1>
-        <p>50+ Reviews</p></span>
-      <span>
-        <h1>Clutch</h1>
-        <p>30+ Reviews</p></span>``
+      <div className="reviews">
+        <h1 className="text-center">Google</h1>
+        <p className="gold">100+ Reviews</p></div>
+      <div className="reviews">
+        <h1 className="text-center">Faceook</h1>
+        <p className="gold">50+ Reviews</p></div>
+      <div className="reviews">
+        <h1 className="text-center">Clutch</h1>
+        <p className="gold">30+ Reviews</p></div>
+        <div className="reviews">
+        <h1 className="text-center">Instagram</h1>
+        <p className="gold">15+ Reviews</p></div>
 
     </div>
 

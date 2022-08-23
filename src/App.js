@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch, faPhone, faAngleDown, faAngleDoubleRight,faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faPhone, faAngleDown, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 function App() {
